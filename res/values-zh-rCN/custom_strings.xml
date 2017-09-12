@@ -112,4 +112,15 @@
     <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
     <string name="incall_vibrate_disconnect_title">挂断时振动</string>
 
+    <!-- Network traffic -->
+    <string name="traffic_title">网速指示器</string>
+    <string name="traffic_summary">启用或禁用网速指示器</string>
+    <string name="network_traffic_title">网络流量</string>
+    <string name="network_traffic_type">选择网络活动类型</string>
+    <string name="show_network_traffic_up">上行</string>
+    <string name="show_network_traffic_down">下行</string>
+    <string name="show_network_traffic_all">上行和下行</string>
+    <string name="network_traffic_state_title">在状态栏显示网络活动</string>
+    <string name="network_traffic_autohide_threshold_title">网络活动自动隐藏阈值 (KB/s)</string>
+
 </resources>
