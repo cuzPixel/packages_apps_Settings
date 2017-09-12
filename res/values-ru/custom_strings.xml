@@ -112,4 +112,15 @@
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
     <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
 
+    <!-- Network traffic -->
+    <string name="traffic_title">Индикатор сетевого трафика</string>
+    <string name="traffic_summary">Включение и отключение индикатора сетевого трафика</string>
+    <string name="network_traffic_title">Сетевой трафик</string>
+    <string name="network_traffic_type">Выберите тип сетевой активности</string>
+    <string name="show_network_traffic_up">Исходящий трафик</string>
+    <string name="show_network_traffic_down">Входящий трафик</string>
+    <string name="show_network_traffic_all">Исходящий и входящий</string>
+    <string name="network_traffic_state_title">Показывать индикатор сетевого трафика в строке состояния</string>
+    <string name="network_traffic_autohide_threshold_title">Порог автоскрытия индикатора сетевого трафика (КБ/с)</string>
+
 </resources>
