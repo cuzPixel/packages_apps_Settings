@@ -88,4 +88,10 @@
     <string name="lockscreen_media_art_title">显示媒体专辑封面</string>
     <string name="lockscreen_media_art_summary">在锁屏界面显示当前播放的媒体专辑封面</string>
 
+	<!-- SELinux status -->
+    <string name="selinux_status">SELinux 状态</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
 </resources>
