@@ -127,4 +127,8 @@
     <string name="charging_animation_title">Анимация зарядки</string>
     <string name="charging_animation_summary">Отображать анимацию зарядки при подключении к источнику питания</string>
 
+    <!-- Hotspot VPN extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа использовать VPN-соединения этого устройства при подключения</string>
+
 </resources>
