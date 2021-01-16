@@ -19,11 +19,7 @@
         android:key="livedisplay"
         android:title="@*android:string/live_display_title">
 
-    <PreferenceCategory
-        android:key="live_display_options"
-        android:title="@*android:string/live_display_title">
-
-        <!-- Color profile -->
+    <!-- Color profile -->
         <ListPreference
                 android:key="live_display_color_profile"
                 android:title="@string/live_display_color_profile_title"
@@ -55,8 +51,6 @@
                 android:summary="@string/live_display_reading_mode_summary"
                 android:defaultValue="false"
                 android:persistent="false" />
-
-    </PreferenceCategory>
 
     <PreferenceCategory
             android:key="advanced"
