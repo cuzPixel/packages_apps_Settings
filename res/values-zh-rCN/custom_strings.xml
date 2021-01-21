@@ -100,4 +100,10 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">总内存</string>
 
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_gesture_title">双击睡眠</string>
+    <string name="double_tap_sleep_gesture_summary">在状态栏处双击以进入睡眠</string>
+    <string name="double_tap_sleep_lockscreen_title">双击睡眠</string>
+    <string name="double_tap_sleep_lockscreen_summary">在锁屏界面双击以进入睡眠</string>
+
 </resources>
