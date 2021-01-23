@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Отпечаток при выключенном экране</string>
+    <string name="fod_gesture_summary">Разрешить разблокировку устройства без включения экрана</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_title">Включите индикатор во время зарядки</string>
+
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Подстраивать экран на основе времени суток и освещения, чтобы повысить удобочитаемость и снизить нагрузку на глаза</string>
+    <string name="live_display_mode">Режим</string>
+    <string name="live_display_color_temperature_title">Цветовая температура</string>
+    <string name="live_display_color_temperature_summary">День: <xliff:g id="day_temperature">%1$d </xliff:g>K Ночь: <xliff:g id="night_temperature">%2$d </xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">День</string>
+    <string name="live_display_night">Ночь</string>
+    <string name="live_display_outdoor_mode_title">Автоматический режим для улицы</string>
+    <string name="live_display_outdoor_mode_summary">Автоматическое увеличение яркости и насыщенности при ярком солнечном свете</string>
+    <string name="live_display_low_power_title">Снизить энергопотребление</string>
+    <string name="live_display_low_power_summary">Подстраивать экран для низкого энергопотребления без ухудшения качества</string>
+    <string name="live_display_enhance_color_title">Улучшение цветопередачи</string>
+    <string name="live_display_enhance_color_summary">Улучшить сочность оттенков кожи, пейзажей и других изображений</string>
+    <string name="live_display_color_profile_title">Цветовой профиль</string>
+    <string name="live_display_color_profile_standard_title">Стандартный</string>
+    <string name="live_display_color_profile_standard_summary">Точная цветопередача и яркие белые тона</string>
+    <string name="live_display_color_profile_natural_title">Естественный</string>
+    <string name="live_display_color_profile_natural_summary">Натуральные цвета и оттенки кожи</string>
+    <string name="live_display_color_profile_dynamic_title">Динамический</string>
+    <string name="live_display_color_profile_dynamic_summary">Насыщенные цвета и повышенная контрастность</string>
+    <string name="live_display_color_profile_cinema_title">Кино</string>
+    <string name="live_display_color_profile_cinema_summary">Идеальная цветопередача для видео</string>
+    <string name="live_display_color_profile_astronomy_title">Астрономия</string>
+    <string name="live_display_color_profile_astronomy_summary">Темно-красный для уменьшения влияния на ваш сон</string>
+    <string name="live_display_color_profile_photography_title">Фотография</string>
+    <string name="live_display_color_profile_photography_summary">Идеальная цветопередача для фото</string>
+    <string name="live_display_color_profile_basic_title">Базовый</string>
+    <string name="live_display_color_profile_basic_summary">Использовать неоткалиброванный дисплей</string>
+    <string name="live_display_color_profile_adaptive_title">Адаптивный</string>
+    <string name="live_display_color_profile_adaptive_summary">Цвета адаптируются к условиям окружающей среды</string>
+    <string name="live_display_color_profile_reading_title">Чтение</string>
+    <string name="live_display_color_profile_reading_summary">Теплые цвета для меньшего напряжения глаз</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Цвета, схожие с пространством sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">Цветовое пространство DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Цвета, соответствующие цветовому пространству DCI-P3</string>
+    <string name="live_display_reading_mode_title">Режим чтения</string>
+    <string name="live_display_reading_mode_summary">Режим оттенков серого для долговременного чтения</string>
+    <string name="color_calibration_title">Цвет</string>
+    <string name="color_calibration_summary">Настройка цветопередачи экрана</string>
+    <string name="color_red_title">Красный</string>
+    <string name="color_green_title">Зеленый</string>
+    <string name="color_blue_title">Синий</string>
+    <string name="picture_adjustment_title">Регулировка изображения</string>
+    <string name="picture_adjustment_summary">Отрегулируйте оттенок, насыщенность, глубину и контрастность</string>
+    <string name="adj_hue_title">Оттенок</string>
+    <string name="adj_saturation_title">Насыщенность</string>
+    <string name="adj_intensity_title">Интенсивность</string>
+    <string name="adj_contrast_title">Контраст</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Длина полоски</string>
+    <string name="hidden_label">Спрятана</string>
+    <string name="long_label">Длинная</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Скриншот жестом</string>
+    <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
+
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Выключено</string>
+    <string name="greatest_tick_label">Половина экрана</string>
+    <string name="gesture_back_deadzone_label">Мертвая зона</string>
+    <string name="back_sensitivity_dialog_message_cust">\nИспользуйте первую и вторую панели поиска, чтобы настроить чувствительность обратного смахивания, последнюю панель поиска, чтобы установить мертвую зону в верхней части экрана, где смахивание не может быть запущено, чтобы избежать конфликтов с жестами в приложении.</string>
+
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Отображение обложек медиа</string>
+    <string name="lockscreen_media_art_summary">Показать текущую воспроизводимую обложку мультимедийного альбома на экране блокировки</string>
+
+	<!-- SELinux status -->
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Отключен</string>
+    <string name="selinux_status_permissive">Разрешающий</string>
+    <string name="selinux_status_enforcing">Принудительный</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Всего RAM</string>
+
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_gesture_title">Двойное нажатие на строке состояния для сна</string>
+    <string name="double_tap_sleep_gesture_summary">Дважды нажмите в любом месте на строке состояния, чтобы перевести устройство в спящий режим</string>
+
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_custom">Дважды коснитесь экрана в любом месте, чтобы вывести устройство из спящего режима или выйти из него.</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
+    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
+
+</resources>
