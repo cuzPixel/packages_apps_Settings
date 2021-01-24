@@ -123,4 +123,8 @@
     <string name="network_traffic_state_title">在状态栏显示网络活动</string>
     <string name="network_traffic_autohide_threshold_title">网络活动自动隐藏阈值 (KB/s)</string>
 
+    <!-- Charging animation -->
+    <string name="charging_animation_title">充电动画</string>
+    <string name="charging_animation_summary">充电时显示动画</string>
+
 </resources>
