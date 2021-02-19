@@ -16,10 +16,10 @@
     <string name="fod_gesture_summary">Разрешить разблокировку устройства без включения экрана</string>
 
     <!-- Battery light -->
-    <string name="battery_light_title">Включите индикатор во время зарядки</string>
+    <string name="battery_light_title">Включить индикатор во время зарядки</string>
 
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Подстраивать экран на основе времени суток и освещения, чтобы повысить удобочитаемость и снизить нагрузку на глаза</string>
+    <string name="live_display_summary">Подстраивать экран в зависимости от времени суток и освещения, чтобы повысить удобочитаемость и снизить нагрузку на глаза</string>
     <string name="live_display_mode">Режим</string>
     <string name="live_display_color_temperature_title">Цветовая температура</string>
     <string name="live_display_color_temperature_summary">День: <xliff:g id="day_temperature">%1$d </xliff:g>K Ночь: <xliff:g id="night_temperature">%2$d </xliff:g>K</string>
@@ -31,18 +31,18 @@
     <string name="live_display_low_power_title">Снизить энергопотребление</string>
     <string name="live_display_low_power_summary">Подстраивать экран для низкого энергопотребления без ухудшения качества</string>
     <string name="live_display_enhance_color_title">Улучшение цветопередачи</string>
-    <string name="live_display_enhance_color_summary">Улучшить сочность оттенков кожи, пейзажей и других изображений</string>
+    <string name="live_display_enhance_color_summary">Улучшить сочность общей картины</string>
     <string name="live_display_color_profile_title">Цветовой профиль</string>
     <string name="live_display_color_profile_standard_title">Стандартный</string>
     <string name="live_display_color_profile_standard_summary">Точная цветопередача и яркие белые тона</string>
     <string name="live_display_color_profile_natural_title">Естественный</string>
-    <string name="live_display_color_profile_natural_summary">Натуральные цвета и оттенки кожи</string>
-    <string name="live_display_color_profile_dynamic_title">Динамический</string>
+    <string name="live_display_color_profile_natural_summary">Натуральные цвета</string>
+    <string name="live_display_color_profile_dynamic_title">Адаптивный</string>
     <string name="live_display_color_profile_dynamic_summary">Насыщенные цвета и повышенная контрастность</string>
     <string name="live_display_color_profile_cinema_title">Кино</string>
     <string name="live_display_color_profile_cinema_summary">Идеальная цветопередача для видео</string>
     <string name="live_display_color_profile_astronomy_title">Астрономия</string>
-    <string name="live_display_color_profile_astronomy_summary">Темно-красный для уменьшения влияния на ваш сон</string>
+    <string name="live_display_color_profile_astronomy_summary">Темно-красный для уменьшения воздействия на ваши глаза</string>
     <string name="live_display_color_profile_photography_title">Фотография</string>
     <string name="live_display_color_profile_photography_summary">Идеальная цветопередача для фото</string>
     <string name="live_display_color_profile_basic_title">Базовый</string>
@@ -56,7 +56,7 @@
     <string name="live_display_color_profile_dci_p3_title">Цветовое пространство DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Цвета, соответствующие цветовому пространству DCI-P3</string>
     <string name="live_display_reading_mode_title">Режим чтения</string>
-    <string name="live_display_reading_mode_summary">Режим оттенков серого для долговременного чтения</string>
+    <string name="live_display_reading_mode_summary">Режим оттенков серого для чтения</string>
     <string name="color_calibration_title">Цвет</string>
     <string name="color_calibration_summary">Настройка цветопередачи экрана</string>
     <string name="color_red_title">Красный</string>
@@ -76,23 +76,23 @@
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Скриншот жестом</string>
-    <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
+    <string name="three_finger_gesture_summary">Свайп тремя пальцами для создания скриншота</string>
 
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Выключено</string>
     <string name="greatest_tick_label">Половина экрана</string>
     <string name="gesture_back_deadzone_label">Мертвая зона</string>
-    <string name="back_sensitivity_dialog_message_cust">\nИспользуйте первую и вторую панели поиска, чтобы настроить чувствительность обратного смахивания, последнюю панель поиска, чтобы установить мертвую зону в верхней части экрана, где смахивание не может быть запущено, чтобы избежать конфликтов с жестами в приложении.</string>
+    <string name="back_sensitivity_dialog_message_cust">\nИспользуйте первую и вторую панели настройки, чтобы настроить чувствительность обратного смахивания, последнюю панель настройки, чтобы установить мертвую зону в верхней части экрана, где смахивание не будет работать, чтобы избежать конфликтов с жестами в приложениях.</string>
 
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Отображение обложек медиа</string>
-    <string name="lockscreen_media_art_summary">Показать текущую воспроизводимую обложку мультимедийного альбома на экране блокировки</string>
+    <string name="lockscreen_media_art_title">Отображение обложки проигрываемого трека</string>
+    <string name="lockscreen_media_art_summary">Показать обложку воспроизводимого трека на экране блокировки</string>
 
-	<!-- SELinux status -->
+    <!-- SELinux status -->
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Отключен</string>
-    <string name="selinux_status_permissive">Разрешающий</string>
-    <string name="selinux_status_enforcing">Принудительный</string>
+    <string name="selinux_status_permissive">"Permissive" режим</string>
+    <string name="selinux_status_enforcing">"Enforcing" режим</string>
 
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
@@ -101,30 +101,30 @@
     <string name="total_ram">Всего RAM</string>
 
     <!-- Double Tap gestures -->
-    <string name="double_tap_sleep_gesture_title">Двойное нажатие на строке состояния для сна</string>
-    <string name="double_tap_sleep_gesture_summary">Дважды нажмите в любом месте на строке состояния, чтобы перевести устройство в спящий режим</string>
+    <string name="double_tap_sleep_gesture_title">Двойное нажатие по строке состояния для блокировки экрана</string>
+    <string name="double_tap_sleep_gesture_summary">Дважды тапните в любом месте по строке состояния, чтобы заблокировать устройство</string>
 
     <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_custom">Дважды коснитесь экрана в любом месте, чтобы вывести устройство из спящего режима или выйти из него.</string>
+    <string name="tap_to_wake_summary_custom">Дважды коснитесь экрана на заблокированном экране в любом месте, чтобы вывести устройство из режима сна или разблокировать устройство</string>
 
     <!-- Incall vibrate options -->
     <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
-    <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при завершении разговора</string>
 
     <!-- Network traffic -->
     <string name="traffic_title">Индикатор сетевого трафика</string>
     <string name="traffic_summary">Включение и отключение индикатора сетевого трафика</string>
     <string name="network_traffic_title">Сетевой трафик</string>
     <string name="network_traffic_type">Выберите тип сетевой активности</string>
-    <string name="show_network_traffic_up">Исходящий трафик</string>
-    <string name="show_network_traffic_down">Входящий трафик</string>
+    <string name="show_network_traffic_up">Только исходящий трафик</string>
+    <string name="show_network_traffic_down">Только входящий трафик</string>
     <string name="show_network_traffic_all">Исходящий и входящий</string>
     <string name="network_traffic_state_title">Показывать индикатор сетевого трафика в строке состояния</string>
-    <string name="network_traffic_autohide_threshold_title">Порог автоскрытия индикатора сетевого трафика (КБ/с)</string>
+    <string name="network_traffic_autohide_threshold_title">Порог автоматического скрытия индикатора сетевого трафика (КБ/с)</string>
 
     <!-- Charging animation -->
     <string name="charging_animation_title">Анимация зарядки</string>
-    <string name="charging_animation_summary">Отображать анимацию зарадки во время подключения</string>
+    <string name="charging_animation_summary">Отображать анимацию зарадки при подключении</string>
 
 </resources>
