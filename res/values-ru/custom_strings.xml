@@ -71,7 +71,7 @@
 
     <!-- Navbar length -->
     <string name="navbar_length">Длина полоски</string>
-    <string name="hidden_label">Спрятана</string>
+    <string name="hidden_label">Отсутствует</string>
     <string name="long_label">Длинная</string>
 
     <!-- Three-fingers-swipe to screenshot -->
@@ -82,7 +82,7 @@
     <string name="smallest_tick_label">Выключено</string>
     <string name="greatest_tick_label">Половина экрана</string>
     <string name="gesture_back_deadzone_label">Мертвая зона</string>
-    <string name="back_sensitivity_dialog_message_cust">\nИспользуйте первую и вторую панели настройки, чтобы настроить чувствительность обратного смахивания, последнюю панель настройки, чтобы установить мертвую зону в верхней части экрана, где смахивание не будет работать, чтобы избежать конфликтов с жестами в приложениях.</string>
+    <string name="back_sensitivity_dialog_message_cust">\nИспользуйте первую и вторую панели настройки, чтобы настроить чувствительность жеста назад, последнюю панель настройки, чтобы установить мертвую зону в верхней части экрана, где жест не будет работать, чтобы избежать конфликтов с жестами в приложениях.</string>
 
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Отображение обложки проигрываемого трека</string>
@@ -98,7 +98,7 @@
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Платформа</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Всего RAM</string>
+    <string name="total_ram">Всего ОЗУ</string>
 
     <!-- Double Tap gestures -->
     <string name="double_tap_sleep_gesture_title">Двойное нажатие по строке состояния для блокировки экрана</string>
@@ -108,9 +108,9 @@
     <string name="tap_to_wake_summary_custom">Дважды коснитесь экрана на заблокированном экране в любом месте, чтобы вывести устройство из режима сна или разблокировать устройство</string>
 
     <!-- Incall vibrate options -->
-    <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
+    <string name="incall_vibrate_connect_title">Вибрация при ответе</string>
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
-    <string name="incall_vibrate_disconnect_title">Вибрировать при завершении разговора</string>
+    <string name="incall_vibrate_disconnect_title">Вибрация при завершении разговора</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">Индикатор сетевого трафика</string>
@@ -125,6 +125,6 @@
 
     <!-- Charging animation -->
     <string name="charging_animation_title">Анимация зарядки</string>
-    <string name="charging_animation_summary">Отображать анимацию зарадки при подключении</string>
+    <string name="charging_animation_summary">Отображать анимацию зарядки при подключении к источнику питания</string>
 
 </resources>
