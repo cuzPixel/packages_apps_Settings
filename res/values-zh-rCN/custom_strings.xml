@@ -11,12 +11,34 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">您可以在手机正面找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">您可以在手机左侧找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">您可以在手机右侧找到指纹传感器。</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">您可以在设备正面找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">您可以在设备左侧找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">您可以在设备右侧找到指纹传感器。</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">您可以在平板正面找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">您可以在平板左侧找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">您可以在平板右侧找到指纹传感器。</string>
+
     <!-- Screen off fod -->
     <string name="fod_gesture_title">熄屏指纹</string>
     <string name="fod_gesture_summary">无需先唤醒屏幕即可解锁设备</string>
 
     <!-- Battery light -->
     <string name="battery_light_title">充电时开启指示灯</string>
+
+    <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
+         is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
+    <string name="mobile_data_settings_summary_unavailable">无可用SIM卡</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">已保存的耳机</string>
 
     <!-- LiveDisplay -->
     <string name="live_display_summary">基于当前时间和环境条件来优化您的屏幕以改善可读性和减少视疲劳</string>
@@ -62,6 +84,8 @@
     <string name="color_red_title">红</string>
     <string name="color_green_title">绿</string>
     <string name="color_blue_title">蓝</string>
+
+    <!-- LiveDisplay : Picture Adjustment -->
     <string name="picture_adjustment_title">图片调整</string>
     <string name="picture_adjustment_summary">调整色相、饱和度、亮度和对比度</string>
     <string name="adj_hue_title">色相</string>
@@ -88,7 +112,7 @@
     <string name="lockscreen_media_art_title">显示媒体专辑封面</string>
     <string name="lockscreen_media_art_summary">在锁屏界面显示当前播放的媒体专辑封面</string>
 
-	<!-- SELinux status -->
+    <!-- SELinux status -->
     <string name="selinux_status">SELinux 状态</string>
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
