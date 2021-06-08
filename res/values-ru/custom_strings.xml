@@ -11,12 +11,34 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на задней поверхности вашего телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Найдите сканер отпечатков пальцев на левой грани вашего телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Найдите сканер отпечатков пальцев на правой грани вашего телефона.</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на передней поверхности телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Найдите датчик отпечатков пальцев на левой грани вашего устройства.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Найдите датчик отпечатков пальцев на правой грани вашего устройства.</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите датчик отпечатков пальцев на задней поверхности вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Найдите датчик отпечатков пальцев на левой грани вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Найдите датчик отпечатков пальцев на правой грани вашего планшета.</string>
+
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Отпечаток при выключенном экране</string>
     <string name="fod_gesture_summary">Разрешить разблокировку устройства без включения экрана</string>
 
     <!-- Battery light -->
     <string name="battery_light_title">Включить индикатор во время зарядки</string>
+
+    <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
+         is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
+    <string name="mobile_data_settings_summary_unavailable">SIM-карта недоступна</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
 
     <!-- LiveDisplay -->
     <string name="live_display_summary">Подстраивать экран в зависимости от времени суток и освещения, чтобы повысить удобочитаемость и снизить нагрузку на глаза</string>
@@ -62,6 +84,8 @@
     <string name="color_red_title">Красный</string>
     <string name="color_green_title">Зеленый</string>
     <string name="color_blue_title">Синий</string>
+
+    <!-- LiveDisplay : Picture Adjustment -->
     <string name="picture_adjustment_title">Регулировка изображения</string>
     <string name="picture_adjustment_summary">Отрегулируйте оттенок, насыщенность, глубину и контрастность</string>
     <string name="adj_hue_title">Оттенок</string>
